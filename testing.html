@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Website Grading Tool</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <link rel="stylesheet" href="test.css">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <img src="images/logo.png" alt="logo" id="logo">
+  <div class="container-2">
+    <h1>Tool by FireWall</h1>
+    <form onsubmit="sendEmail(); reset(); return false;"></form>
+    <input type="text" id="websiteUrl" placeholder="Enter Website URL">
+    <button onclick="gradeWebsite()" id="evaluate-btn" class="h-10">Evaluate Website</button>
+    <div class="result" id="result"></div>
+</form>
+  </div>
+
+  <footer class="footer mt-40">
+    <div class="footer-container">
+        <div class="footer-logo">
+            <p class="text-white">FireWall</p>
+            <p>Promoting Data Protection</p>
+            <p>1234 Street Name, New Delhi, India</p>
+        </div>
+        
+        <div class="footer-links">
+            <h3>About Us</h3>
+            <ul>
+                <li><a href="#">Overview</a></li>
+                <li><a href="#">Careers</a></li>
+                <li><a href="#">Contact Us</a></li>
+                <li><a href="#">What's New</a></li>
+            </ul>
+        </div>
+
+        <div class="footer-links">
+            <h3>Media Centre</h3>
+            <ul>
+                <li><a href="#">Press release</a></li>
+                <li><a href="#">Media Coverage</a></li>
+                <li><a href="#">Blogs</a></li>
+                <li><a href="#">Media Contact</a></li>
+            </ul>
+        </div>
+
+        <div class="footer-links">
+            <h3>Resource Centre</h3>
+            <ul>
+                <li><a href="#">Studies & Reports</a></li>
+                <li><a href="#">Point of View</a></li>
+                <li><a href="#">Newsletter</a></li>
+                <li><a href="#">White Papers</a></li>
+                <li><a href="#">Annual Reports</a></li>
+            </ul>
+        </div>
+
+        <div class="footer-links">
+            <h3>Community</h3>
+            <ul>
+                <li><a href="#">Become a Member</a></li>
+                <li><a href="#">Membership Directory</a></li>
+                <li><a href="#">FireWall Chapters</a></li>
+            </ul>
+        </div>
+    </div>
+
+    <div class="footer-bottom">
+        <a href="#">Terms of Service</a> |
+        <a href="#">Privacy Policy</a> |
+        <a href="#">Disclaimer</a> |
+        <a href="#">Vulnerability Disclosure Program</a> |
+        <a href="#">Sitemap</a>
+        <p>© 2024 FireWall. All Rights Reserved</p>
+    </div>
+</footer>
+<script src="https://smtpjs.com/v3/smtp.js"></script>
+  <script src="test.js"></script>
+</body>
+</html>
