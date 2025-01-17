@@ -1,0 +1,211 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FireWall</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="icon" href="images/logo.png">
+</head>
+<body class="text-white">
+    <header class="uppercase">
+        <nav class="flex justify-between items-center bg-[#36335e] p-10 sm:p-16">
+            <div class="logo-div">
+                <img src="images/logo.png" alt="" class="rounded-xl ml-2">
+                <p class="text-center">Firewall</p>
+            </div>
+        
+            <div class="hamburger cursor-pointer z-20 space-y-2 lg:hidden block">
+                <div class="line1"></div>
+                <div class="line3"></div>
+                <div class="line2"></div>
+              </div>
+
+              <ul class="navbar-phone lg:hidden space-y-5 capitalize z-10 text-lg">
+                <li class="cursor-pointer"><a href="testing.html">Testing</a></li>
+                <li class="cursor-pointer"><a href="news.html">News</a></li>
+                <li class="cursor-pointer"><a href="security.html">soluction</a></li>
+                <li class="cursor-pointer"><a href="contact.html">Contact</a></li>
+                <li class="cursor-pointer"><a href="#">Events & Outreach</a></li>
+                <li class="cursor-pointer"><a href="#">Policy Advocacy</a></li>
+              </ul>
+
+            <ul class="hidden lg:flex space-x-9 capitalize text-lg">
+                <li class="nav-list cursor-pointer"><a href="testing.html">Testing</a></li>
+                <li class="nav-list cursor-pointer"><a href="news.html">News</a></li>
+                <li class="nav-list cursor-pointer"><a href="security.html">soluction</a></li>
+                <li class="nav-list cursor-pointer"><a href="contact.html">Contact</a></li>
+                <li class="nav-list cursor-pointer"><a href="#">Events & Outreach</a></li>
+                <li class="nav-list cursor-pointer"><a href="#">Policy Advocacy</a></li>
+            </ul>
+        </nav>
+    </header>
+<!-- 
+    <main>
+        <img src="images/banner-img.jpeg" alt="banner" class="banner w-[80vw] h-[40vh]">
+    </main>
+ -->
+
+    <div id="slideContainer" class="mt-20">
+        <button id='prev' class="sliderBtn hover:bg-white hover:text-black duration-200">&lt;
+            <button id="next" class="sliderBtn hover:bg-white hover:text-black duration-200">&gt;</button>
+        </button>
+        <div class="slide show mt-20">
+         <a href="https://thehackernews.com/2024/10/microsoft-detects-growing-use-of-file.html"> <img src="slider-news-images/img-1.jpg" alt="slide1" class="img"/></a>
+        
+        </div>
+        <div class="slide mt-20">
+          <a href="https://thehackernews.com/2024/09/new-html-smuggling-campaign-delivers.html"><img src="slider-news-images/img-2.avif" alt="slide2" class="img"/></a>
+        
+        </div>
+        <div class="slide mt-20">
+         <a href="https://thehackernews.com/2024/08/new-malware-pgmem-targets-postgresql.html"><img src="slider-news-images/img-3.jpg" alt="slide3" class="img"/></a> 
+        
+        </div>
+        <div class="slide mt-20">
+          <a href="https://thehackernews.com/2024/09/microsoft-identifies-storm-0501-as.html"><img src="slider-news-images/img-4.png" alt="slide4" class="img"/></a>
+        
+        </div>
+     
+
+      <div class="cybersecurity-container text-black mt-20">
+
+        <div class="cybersecurity-content">
+          <h1>Defeat Cyberattacks</h1>
+          <p>Award-winning endpoint and network threat protection, trusted by more than half a million customers worldwide.</p>
+          <ul>
+            <li>Our detection and response, cloud, firewall, and managed services solutions provide unified threat management against emerging risks.</li>
+            <li>Innovative, adaptive defenses and unmatched expertise protect your business and customers.</li>
+            <li>Maximize your resources with better risk identification and prioritization using AI-led intelligence.</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+    
+    <div class="mt-[36rem] text-black">
+        <h1 class="title">Key Findings</h1>
+        <div class="container grid grid-cols-3">
+            <div class="box">
+                <h3>Scale of Threats:</h3>
+                <ul>
+                    <li><strong>Total Detections:</strong> Over 400 million detections across approximately 8.5 million Endpoints.</li>
+                    <li><strong>Detection Rate:</strong> Averaging 761 detections per minute.</li>
+                    <li><strong>Behaviour-based detections:</strong> ~49 million detections constituting 12.5% of the total detections.</li>
+                </ul>
+            </div>
+            <div class="box">
+                <h3>Ransomware and Malware Incidents:</h3>
+                <ul>
+                    <li><strong>Ransomware incident ratio:</strong> ~1 per 650 detections</li>
+                    <li><strong>Malware incident ratio:</strong> ~1 per 38,000 detections</li>
+                    <li><strong>Cryptojacking:</strong> Emerging as a significant threat with over 5.28 million detections in a year.</li>
+                </ul>
+            </div>
+            <div class="box">
+                <h3>Malware Attack Spectrum:</h3>
+                <ul>
+                    <li><strong>Dominant Threats:</strong> Trojans (41%) and Infectors (33%) contribute significantly to the attack spectrum.</li>
+                    <li><strong>Geographical Hotspots (States):</strong> Telangana (15%) and Tamil Nadu (14%) top the list in terms of malware detections.</li>
+                    <li><strong>City-wise Analysis:</strong> Surat (15%) and Bengaluru (14%) report the highest number of detections.</li>
+                </ul>
+            </div>
+
+            <div class="box">
+                <h3>Attack Vectors:</h3>
+                <ul>
+                    <li><strong>Distribution of Detections: </strong>  Over 50% of detections are associated with removable media and network drives.</li>
+                    <li><strong>Detection Rate:</strong> Averaging 761 detections per minute.</li>
+                    <li><strong>Malicious Links:</strong>Approximately 25% of attacks result from clicking on malicious links in emails and websites.</li>
+                </ul>
+            </div>
+            <div class="box">
+                <h3>Top Three Industries:</h3>
+                <ul>
+                    <li>The Automobile Industry experiences the highest number of detections, followed by the Government and Education sector.</li>
+                </ul>
+            </div>
+            <div class="box">
+                <h3>Mobile Threat Landscape:</h3>
+                <ul>
+                    <li>Android Devices: An average of ~3 attacks per month per Android device were observed for the year 2023.</li>
+                </ul>
+            </div>
+        </div>
+    </div>
+
+    <div class="threat-section mt-20">
+        <h1 class="text-white">Stop threats before they strike</h1>
+        <p>Our integrated approach identifies risks before they can be exploited.</p>
+        <div class="buttons">
+            <a href="#">Contact sales</a>
+            <a href="#">Start a free trial</a>
+        </div>
+    </div>
+
+    
+
+    <footer class="footer mt-40">
+        <img src="images/logo.png" alt="LOGO" class="w-28 h-28">
+        <div class="footer-container">
+            <div class="footer-logo">
+                <h1 class="text-white">FireWall</h1>
+                <p>Promoting Data Protection</p>
+                <p>1234 Street Name, New Delhi, India</p>
+            </div>
+            
+            <div class="footer-links">
+                <h3>About Us</h3>
+                <ul>
+                    <li><a href="#">Overview</a></li>
+                    <li><a href="#">Careers</a></li>
+                    <li><a href="#">Contact Us</a></li>
+                    <li><a href="#">What's New</a></li>
+                </ul>
+            </div>
+
+            <div class="footer-links">
+                <h3>Media Centre</h3>
+                <ul>
+                    <li><a href="#">Press release</a></li>
+                    <li><a href="#">Media Coverage</a></li>
+                    <li><a href="#">Blogs</a></li>
+                    <li><a href="#">Media Contact</a></li>
+                </ul>
+            </div>
+
+            <div class="footer-links">
+                <h3>Resource Centre</h3>
+                <ul>
+                    <li><a href="#">Studies & Reports</a></li>
+                    <li><a href="#">Point of View</a></li>
+                    <li><a href="#">Newsletter</a></li>
+                    <li><a href="#">White Papers</a></li>
+                    <li><a href="#">Annual Reports</a></li>
+                </ul>
+            </div>
+
+            <div class="footer-links">
+                <h3>Community</h3>
+                <ul>
+                    <li><a href="#">Become a Member</a></li>
+                    <li><a href="#">Membership Directory</a></li>
+                    <li><a href="#">FireWall Chapters</a></li>
+                </ul>
+            </div>
+        </div>
+
+        <div class="footer-bottom">
+            <a href="#">Terms of Service</a> |
+            <a href="#">Privacy Policy</a> |
+            <a href="#">Disclaimer</a> |
+            <a href="#">Vulnerability Disclosure Program</a> |
+            <a href="#">Sitemap</a>
+            <p>© 2024 FireWall. All Rights Reserved</p>
+        </div>
+    </footer>
+
+
+    <script src="script.js"></script>
+</body>
+</html>
